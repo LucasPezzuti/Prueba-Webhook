@@ -13,7 +13,7 @@ class VerifyCsrfToken extends Middleware
      */
     protected $except = [
 
-    'webhook-receiving-url',
+    'https://lucaspezzuti.github.io/Prueba-Webhook/',
 
     ];
 }

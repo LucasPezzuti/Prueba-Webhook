@@ -17,4 +17,4 @@ use App\Http\Controllers\ProductController;
   
 Route::resource('products', ProductController::class);
 
-Route::webhooks('webhook-receiving-url');
+Route::webhooks('https://lucaspezzuti.github.io/Prueba-Webhook/');
